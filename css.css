@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #fff9ed;
+    font: 14px "微软雅黑";
+    
+}
+ul li{
+    list-style: none;
+}
+.cen{
+    margin:  0 auto;
+}
+
+/* <!-- head begin --> */
+.header{
+    width: 100%;
+    height: 128px;
+    background: url(./imges/head_bg.jpg) repeat-x;
+}
+.header .center{
+    width: 980px;
+    
+
+
+}
+.header .center h1{
+    float: left;
+    position:  relative;
+    left: -999px;
+}
+.header .center ul{
+    padding-left: 178px;
+     background: url(./imges/logo.png) no-repeat;
+     height: 128px;
+}
+
+.header .center ul li{
+    float: left;
+ 
+
+}
+.header .center a{
+    display: block ;
+      width: 119px;
+    height: 91px;
+    text-align: center;
+    line-height: 70px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.header .center a:hover,.header .center a:active{
+    background: url(./imges/xuanfu.png) no-repeat;
+}
+/* <!-- head end --> */
+/* content begin */
+.content{
+    width: 980px;
+    /* height: 300px; */
+  
+}
+.content .banner{
+    height: 373px;
+    background: url(./imges/banner.jpg)no-repeat center top;
+   
+}
+.content .content_top{
+    padding:  10px 36px 10px 36px;
+    background: #EC6E47;
+}
+.content .content_top ul{
+    float: left;
+    margin-right: 4px;
+    width: 279px;
+}
+.content .content_top .content_bg{
+    padding:  5px 0 0 8px;
+    /* width: 980px; */
+    overflow: hidden;
+    height: 320px;
+    background: white;
+
+}
+
+
+.content .content_top ul li{
+  margin-bottom: 5px;
+  width: 279px;
+}
+.content .content img{
+    float: left;
+}
+/* 公共类 */
+
+.content .content_top ul li span{
+    float: right;
+    display: block;
+    width: 117px;
+    height: 169px;
+    
+    }
+    .content .content_top ul li a{
+    display: block;
+    width: 117px;
+    height: 169px;
+    color: #fff;
+    background: #000;
+    text-align: center;
+    line-height: 169px;
+    text-decoration: none;
+    
+    }
+    .content .content_top ul li a:hover,.content .content_top ul li a:active{
+    background: #ec6e47;
+    }
+    
+    /* 第一个 */
+    
+    
+    .content .content_top ul .top1 span{
+    /* float: right;
+    display: block; */
+    width: 117px;
+    height: 169px;
+    
+    }
+    .content .content_top ul .top1 a{
+    /* display: block; */
+    width: 117px;
+    height: 169px;
+    /* color: #fff;
+    background: #000;
+    text-align: center; */
+    line-height: 169px;
+    /* text-decoration: none; */
+    
+    }
+    /* .content .content_top ul .top1 a:hover,.content .content_top ul .top1 a:active{
+    background: #ec6e47;
+    } */
+    
+    .content .content_top ul .bottom span{
+    /* float: right; */
+    /* display: block; */
+    width: 117px;
+    height: 169px;
+    
+    }
+    .content .content_top ul .bottom a{
+    /* display: block; */
+    width: 117px;
+    height: 169px;
+    /* color: #fff; */
+    /* background: #000; */
+    /* text-align: center; */
+    line-height: 169px;
+    /* text-decoration: none; */
+    
+    }
+    /* .content .content_top ul .bottom a:hover,.content .content_top ul .bottom a:active{
+    background: #EC6E47;
+    } */
+    
+    
+    /* 第二个 ul */
+    
+    .content .content_top ul .top2 span{
+    /* float: right;
+    display: block; */
+    width: 117px;
+    height: 137px;
+    
+    }
+    .content .content_top ul .top2 a{
+    /* display: block; */
+    width: 117px;
+    height: 137px;
+    /* color: #fff; */
+    /* background: #000; */
+    /* text-align: center; */
+    line-height: 137px;
+    /* text-decoration: none; */
+    
+    }
+    /* .content .content_top ul .top2 a:hover,.content .content_top ul .top2 a:active{
+    background: #ec6e47;
+    } */
+    
+    .content .content_top ul .bottom span{
+    /* float: right;
+    display: block; */
+    width: 117px;
+    height: 169px;
+    
+    }
+    .content .content_top ul .bottom a{
+    /* display: block; */
+    width: 117px;
+    height: 169px;
+    /* color: #fff;
+    background: #000;
+    text-align: center; */
+    line-height: 169px;
+    /* text-decoration: none; */
+    
+    }
+    /* content .content_top ul .top2 a:hover{
+    background: #ec6e47;
+    } */
+    
+    
+    /* 第三个 ul */
+    
+    
+    .content .content_top ul .top3 span{
+    /* float: right;
+    display: block; */
+    width: 117px;
+    height: 117px;
+    
+    }
+    .content .content_top ul .top3 a{
+    /* display: block; */
+    width: 117px;
+    height: 117px;
+    /* color: #fff; */
+    /* background: #000;
+    text-align: center; */
+    line-height: 117px;
+    /* text-decoration: none; */
+    
+    }
+    /* .content .content_top ul .top3 a:hover,.content .content_top ul .top3 a:active{
+    background: #ec6e47;
+    } */
+    
+    
+    /* 第四个UL */
+    
+    
+    .content .content_top ul .top4 span{
+    /* float: right;
+    display: block; */
+    width: 117px;
+    height: 188px;
+    
+    }
+    .content .content_top ul .top4 a{
+    /* display: block; */
+    width: 117px;
+    height: 188px;
+    /* color: #fff; */
+    /* background: #000; */
+    /* text-align: center; */
+    line-height: 188px;
+    /* text-decoration: none; */
+    
+    }
+    /* .content .content_top ul .top4 a:hover,.content .content_top ul .top4 a:active{
+    background: #ec6e47;
+    } */
+    
+    
+    /* 第五个 ul */
+    
+    
+    .content .content_top .left_3{
+    float: left;
+    width: 322px;
+    margin-right: 10px;
+    }
+    
+    .content .content_top ul .top5 span{
+    /* float: right;
+    display: block; */
+    width: 74px;
+    height: 314px;
+    
+    }
+    .content .content_top ul .top5 a{
+    /* display: block; */
+    width: 117px;
+    height: 314px;
+    /* color: #fff; */
+    /* background: #000; */
+    /* text-align: center; */
+    line-height: 314px;
+   
+    }
+    
+    .content_bottom h2{
+        width: 259px;
+        height: 45px;
+        background: #ea6c46;
+        font-size: 20px;
+        font-weight: 100;
+        line-height:45px ;
+        text-align:center ;
+        color: #fff;
+        margin-top:40px ;
+    }
+    .content_bottom .current{
+        width: 958px;
+        height: 342px;
+        background: #fff;
+        border: 1px solid #bcd2ba;
+        padding:  13px 0 0 20px;
+       
+    }
+    .content_bottom .current dl{
+        width: 229px;
+        height: 330px;
+        border: 1px solid #bcd2ba;
+        float: left;
+        margin-right: 5px;
+    }
+    .content_bottom .current dt{
+        width: 229px;
+        height: 212px;
+        border-bottom: 1px solid #bcd2ba;
+    }
+    .content_bottom .current01{
+        width: 229px;
+        height: 66px;
+        background: #fff;
+        line-height:66px ;
+        color: #7a7a7a;
+        font-size: 22px;
+        text-align: center ;
+    }
+    .content_bottom .current02{
+        width: 140px;
+        height: 38px;
+        background: #f3734e url(./imges/gouwu.jpg) left center no-repeat;
+        margin: 0 14px;
+        line-height:38px;
+        padding-left:60px;
+        color: #fff; 
+    }
+    .match_1{
+        background:url(./imges/match01.jpg) center center no-repeat     }
+        .match_2{
+            background:url(./imges/match02.jpg) center center no-repeat     }
+            .match_3{
+                background:url(./imges/match03.jpg) center center no-repeat     }
+                .match_4{
+                    background:url(./imges/match04.jpg) center center no-repeat     }
+                    .content_bottom  .current a{
+                        display: inline-block ;
+                        width: 180px;
+                        height: 38px;
+                        text-decoration: none;
+                    }
+                    /* <!--  .content_bottom  end --> */
+
+                    /* <!-- footer  begin --> */
+
+      .footer{
+          width: 100%;
+          height: 30px;
+          background: #020202;
+          color: #fff;
+          line-height: 13px;
+          text-align: center ;
+          padding-top: 30px;
+          margin-top: 30px;
+      }
+
+                    /* <!-- footer end --> */
+
+
+
